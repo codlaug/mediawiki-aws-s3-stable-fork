@@ -69,4 +69,4 @@ $wgFileBackends['s3'] = array(
 	'lockManager' => 'nullLockManager',
 );
 
-require_once __DIR__ . '/vendor/autoload.php';
+require_once '$IP/vendor/autoload.php';
