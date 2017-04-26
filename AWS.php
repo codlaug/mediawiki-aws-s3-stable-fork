@@ -68,5 +68,3 @@ $wgFileBackends['s3'] = array(
 	'class' => 'AmazonS3FileBackend',
 	'lockManager' => 'nullLockManager',
 );
-
-require_once '$IP/vendor/autoload.php';
